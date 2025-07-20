@@ -4,6 +4,7 @@ metadata:
   name: quakewatch
   namespace: default
 spec:
+  replicas: 4
   selector:
     matchLabels:
       app: quakewatch
