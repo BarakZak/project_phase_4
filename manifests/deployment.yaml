@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: quakewatch
-        image: yourusername/quakewatch:latest
+        image: barakzak/quakewatch:latest
         ports:
         - containerPort: 5000
         resources:
